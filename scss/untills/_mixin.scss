@@ -1,0 +1,24 @@
+@mixin navigation__btn($width, $style, $color) {
+    border: $width $style $color;
+    color: $white;
+    background-color: rgba(217, 217, 217, 0);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 121%;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@mixin find__partner__btn($text-color, $background-color, $border-color, $border-width, $border-style) {
+    color: $text-color;
+    background-color: $background-color;
+    border: $border-width $border-style $border-color;
+    padding: 13px 37px;
+    margin-top: 21px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 121%;
+    font-weight: 700;
+}
